@@ -1,0 +1,15 @@
+Exception occured at: 2016-04-14 11:27:19
+
+OS: Microsoft Windows 7 Professional 
+
+System.OutOfMemoryException: Det finns inte tillräckligt med ledigt minne för att fortsätta programkörningen.
+   vid System.Windows.Media.Composition.DUCE.Channel.SyncFlush()
+   vid System.Windows.Interop.HwndTarget.UpdateWindowSettings(Boolean enableRenderTarget, Nullable`1 channelSet)
+   vid System.Windows.Interop.HwndTarget.UpdateWindowPos(IntPtr lParam)
+   vid System.Windows.Interop.HwndTarget.HandleMessage(WindowMessage msg, IntPtr wparam, IntPtr lparam)
+   vid System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   vid MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   vid MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   vid System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   vid MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)
+
